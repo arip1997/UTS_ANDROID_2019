@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GambarActivity.class);
         startActivity(intent);
     }
+
+    public void handlerSmsClicked(View view) {
+        Intent intent = new Intent(this, SmsActivity.class);
+        startActivity(intent);
+    }
 }
