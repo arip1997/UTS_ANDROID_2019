@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SmsActivity"></activity>
+        <activity android:name=".BrowserActivity"></activity>
+        <activity android:name=".SmsActivity" />
         <activity android:name=".GambarActivity" />
         <activity android:name=".ImplicitIntentActivity" />
         <activity android:name=".SiswaActivity" />
